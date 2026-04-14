@@ -39,7 +39,7 @@ To run similar analyses:
 
 #### Global Ancestry (*ADMIXTURE*)
 
-![ADMIXTURE plot](figures/admixture_plot.png)
+![ADMIXTURE plot](admixture_plot.png)
 
 Unsupervised ancestry estimation (k=3) reveals varying proportions of European, African, and Indigenous American ancestry across individuals, highlighting regional differences within Costa Rica.
 
@@ -47,14 +47,14 @@ Unsupervised ancestry estimation (k=3) reveals varying proportions of European, 
 
 #### Population Structure (*CRELES_genotyping_QC_v3*)
 
-![PCA plot](figures/colored_pca.png)
+![PCA plot](colored_pca.png)
 
 Principal Component Analysis shows separation along continental ancestry axes, with Costa Rican individuals distributed along two regional clusters reflecting admixture patterns.
 
 ---
 
 ### Regional substructure reflects demographic history of Costa Rica (*Tracts_analysis_recap*)
-![Migration modelling with tracts](figures/tracts.png)
+![Migration modelling with tracts](tracts.png)
 
 Using local ancestry to “color” each genome by ancestral origin (Indigenous American, African, European), we applied tract-based modelling to estimate when admixture events happened. In the CRELES cohort, this points to a ~1 generation (≈30-year) delay between Indigenous American–European and African admixture, consistent with regional separation by the Guanacaste mountain range.
 
